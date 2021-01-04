@@ -1,0 +1,186 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7143577315e3c27d7571f404e0d80ac7",
+    "packages": [
+        {
+            "name": "nikic/fast-route",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35|~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/nikic/FastRoute/issues",
+                "source": "https://github.com/nikic/FastRoute/tree/master"
+            },
+            "time": "2018-02-13T20:26:39+00:00"
+        },
+        {
+            "name": "pantian/server-framework",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pantian/server-framework.git",
+                "reference": "1bd88893cf8a11098a463265730d66cbc77f509e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pantian/server-framework/zipball/1bd88893cf8a11098a463265730d66cbc77f509e",
+                "reference": "1bd88893cf8a11098a463265730d66cbc77f509e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-swoole": ">=4.4",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PTFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "pan tian",
+                    "email": "pt444@126.com"
+                }
+            ],
+            "description": "server framework",
+            "keywords": [
+                "Simple",
+                "coroutine",
+                "php",
+                "simps",
+                "swoole"
+            ],
+            "support": {
+                "issues": "https://github.com/pantian/server-framework/issues",
+                "source": "https://github.com/pantian/server-framework/tree/0.0.4"
+            },
+            "time": "2021-01-04T06:18:31+00:00"
+        },
+        {
+            "name": "simple-swoole/db",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simple-swoole/db.git",
+                "reference": "4f9c602b1ad466c0f6005f4bdbaf7b7331b17359"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simple-swoole/db/zipball/4f9c602b1ad466c0f6005f4bdbaf7b7331b17359",
+                "reference": "4f9c602b1ad466c0f6005f4bdbaf7b7331b17359",
+                "shasum": ""
+            },
+            "require": {
+                "ext-swoole": ">=4.4",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.9"
+            },
+            "suggest": {
+                "swoole/library": "Required to use database, and the swoole version is less than 4.4.17"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Simps\\DB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Luffy",
+                    "email": "52o@qq52o.cn"
+                }
+            ],
+            "description": "A db component for Simps.",
+            "keywords": [
+                "Simple",
+                "coroutine",
+                "db",
+                "php",
+                "simps",
+                "swoole"
+            ],
+            "support": {
+                "issues": "https://github.com/simple-swoole/db/issues",
+                "source": "https://github.com/simple-swoole/db/tree/v1.0.4"
+            },
+            "funding": [
+                {
+                    "url": "https://simps.io/#/zh-cn/donate",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/simple-swoole",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/simps",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-12-15T01:21:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
