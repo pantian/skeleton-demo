@@ -11,6 +11,7 @@ declare(strict_types=1);
 namespace App\Listens;
 
 
+
 use PTFramework\Config;
 use PTFramework\Singleton;
 use Simps\DB\PDO;
@@ -21,6 +22,8 @@ class Pool
     use Singleton;
     public function workerStart($server, $workerId)
     {
+
+
         $config = Config::getInstance()->get('database',[]);
         if (! empty($config)) {
             PDO::getInstance($config);

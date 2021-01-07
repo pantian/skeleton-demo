@@ -17,6 +17,7 @@ return [
     'charset' => 'utf8mb4',
     'options' => [
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+	    PDO::MYSQL_ATTR_USE_BUFFERED_QUERY=>false
     ],
     'size' => 10,
 ];

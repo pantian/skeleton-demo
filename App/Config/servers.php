@@ -12,15 +12,19 @@ declare(strict_types=1);
 return [
     'mode' => SWOOLE_PROCESS,
     'http' => [
+    	'server_name'=>'pt-server',
         'ip' => '0.0.0.0',
         'port' => 9501,
         'sock_type' => SWOOLE_SOCK_TCP,
         'callbacks' => [
         ],
         'settings' => [
-            'worker_num' => swoole_cpu_num(),
+            'worker_num' => 10
         ],
     ],
+
+	'app_log_path'=>BASE_PATH.'/logs/',
+
     'ws' => [
         'ip' => '0.0.0.0',
         'port' => 9502,

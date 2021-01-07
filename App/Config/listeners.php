@@ -16,4 +16,12 @@ return [
     'workerStart' => [
         [\App\Listens\Pool::class, 'workerStart'],
     ],
+
+	//request 生命周期
+
+	'middleware'=>[
+		'requestMiddleware'=>\App\Middleware\RequestMiddleware::class
+	]
+
+
 ];
